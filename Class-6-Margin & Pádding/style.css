@@ -1,0 +1,31 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+    /* margin: 1em 2em 3em 4em; */
+    /* El codigo de arriba es el mismo que sigue a continuación (Nota: 1em = 16px) */
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+    border: 2px solid blue;
+    /* padding: 1em 2em 3em 4em; */
+    /* El codigo de arriba es lo mismo que lo de abajo */
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+}
+
+.box-content {
+    width: 20px;
+    height: 20px;
+    border: 2px solid red;
+    background: yellow;
+}
