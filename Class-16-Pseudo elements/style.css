@@ -1,0 +1,40 @@
+.title::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+.text::first-line {
+    font-size: 2em;
+    color: blue;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+.text::selection {
+    color: lime;
+    background: red;
+}
+
+/* .dolar::before {
+    content: '$';
+}
+
+.dolar::after {
+    content: '.00';
+} */
+
+.dolar::before,
+.dolar::after {
+    content: ''; /* REQUERIDO asi este vacio */
+    display: block; /* Para poder dibujar los cuadros tiene que tener propiedad de bloque */
+    width: 20px;
+    height: 20px;
+    background: red;
+}
