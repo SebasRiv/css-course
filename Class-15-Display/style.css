@@ -1,0 +1,14 @@
+.inline {
+    background: lime;
+    /* display: inline-block; */
+    display: none;
+    height: 200px;
+    margin-bottom: 2em;
+ /*    margin-right: 3em;
+    margin-bottom: 30em; */
+}
+
+.block {
+    background: yellow;
+    /* margin-top: 3em; */
+}
