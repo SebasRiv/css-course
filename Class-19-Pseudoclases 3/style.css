@@ -1,0 +1,45 @@
+.paragraph {
+    padding: .5em;
+    background: lightblue;
+}
+
+.paragraph:empty {
+    all: unset;
+    padding: 0;
+}
+
+.paragraph:first-child {
+    background: red;
+}
+
+.paragraph:last-child {
+    background: blue;
+}
+
+/* 
+valores de nth-child:
+odd -> selecciona los impares
+even-> secciona los pares
+numeros enteros: 1,2,3
+ecuaciones (1n, 2n + 1, 4n +3,...)
+    n es un multiplicador que va desde 0 hasta n (Como un bucle)
+*/
+/* .paragraph:nth-child(n + 4) {
+    background: lightcoral;
+} */
+
+/* .paragraph:nth-last-child(n + 4) {
+    background: lightgreen;
+}
+
+.paragraph:only-child {
+    background: lightseagreen;
+} */
+
+/* .paragraph:nth-of-type(1) {
+    background: lime;
+} */
+
+.paragraph:not(.first) {
+    background: green;
+}
