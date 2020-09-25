@@ -1,0 +1,13 @@
+/* Para crear utilizar fuentes externas */
+@font-face {
+    src: url('assets/fonts/ZCOOL_QingKe_HuangYou/ZCOOLQingKeHuangYou-Regular.ttf');
+    font-family: 'myFont';
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'myFont', sans-serif;
+}
