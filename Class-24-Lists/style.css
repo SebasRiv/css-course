@@ -1,0 +1,32 @@
+.list {
+    /* list-style-type: none; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/* .list__item::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(check.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 1em;
+} */
+
+.list__item {
+    /* background-image: url(check.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    /* padding-left: 2em;
+    background: url(check.png) 0 0 / contain no-repeat; */
+    /* background: red; */
+    float: left;
+    padding-right: 1em;
+}
+
