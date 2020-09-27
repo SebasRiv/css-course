@@ -1,0 +1,27 @@
+/* .table {
+    table-layout: fixed;
+    width: 70%;
+    text-align: center;
+    caption-side: bottom;
+    border-spacing: 40px;
+    border: 1px solid black;
+} */
+
+.table,.table__data, .table__head {
+    border: 1px solid black;
+    border-spacing: 10px;
+}
+
+.table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    empty-cells: hide;
+}
+
+.table__data {
+    background: lightblue;
+}
+
+.table-container {
+    overflow-x: auto;
+}
