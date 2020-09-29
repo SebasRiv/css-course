@@ -1,0 +1,30 @@
+/* .img {
+    width: 250px;
+    height: 450px;
+    background: red;
+    object-fit: cover;
+    object-position: left;
+    transition: object-position 2s;
+}
+
+.img:hover {
+    object-position: right;
+} */
+
+.img-2 {
+    max-width: 100%;
+    /* filter: blur(10px);
+    filter: brightness(2); */
+    /* filter: contrast(2); */
+    /* filter: drop-shadow(10px 10px 5px black); */
+    /* filter: grayscale(0.5); */
+    /* filter: hue-rotate(240deg); */
+    /* filter: invert(1); */
+    /* filter: opacity(0.5); */
+    /* filter: saturate(5); */
+    filter: sepia(1);
+}
+
+.img-2:hover {
+    filter: none;
+}
