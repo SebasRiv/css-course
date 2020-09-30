@@ -1,0 +1,17 @@
+.flex-container {
+    background-color: lightcoral;
+    padding: 0.5em;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 30px;
+    height: 30px;
+    margin: 0.5em;
+    line-height: 30px;
+    color: aliceblue;
+    text-align: center;
+    background-color: purple;
+}
