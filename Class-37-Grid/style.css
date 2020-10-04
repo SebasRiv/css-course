@@ -12,15 +12,48 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 100px 50px 150px 100px;
-    grid-template-rows: 100px 120px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
     /* grid-gap: 30px; */
 }
 
 .grid-item {
+    display: flex;
     border: 1px solid;
     text-align: center;
+    align-items: center;
     justify-content: center;
     padding: 1rem;
     font-size: 2rem;
+}
+
+.grid-item:nth-child(3),
+.grid-item:nth-child(4) {
+    background: orange;
+}
+
+.grid-item:first-child,
+.grid-item:nth-child(2) {
+    background: violet;
+}
+
+.grid-item:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-item:nth-child(3) {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid-item:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
